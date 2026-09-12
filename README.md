@@ -1,2 +1,3 @@
 # choimory-agents
-작업용 AGENTS.md 관리
+
+- 개발용 AGENTS.md 관리
