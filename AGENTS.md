@@ -26,18 +26,18 @@
 
 # Front-end 개발 규칙 
 
-@.agents/rules/front-end/**/*.md
+- 프론트엔드 개발시 .agents/rules/front-end/**/*.md를 참고한다
 
 ---
 
 # Back-end 개발 규칙
 
-@.agents/rules/back-end/**/*.md
+- 백엔드 개발시 .agents/rules/back-end/**/*.md를 참고한다
 
 ---
 
 # Dev-ops 개발 규칙
 
-@.agents/rules/dev-ops/**/*.md
+- 인프라 개발시 .agents/rules/dev-ops/**/*.md를 참고한다
 
 ---
