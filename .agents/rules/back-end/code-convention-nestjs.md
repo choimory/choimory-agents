@@ -1,13 +1,5 @@
 # 백엔드 - TypeScript, NestJS, TypeORM 개발 규칙
 
-## 적용대상
-
-- TypeScript
-- NestJS
-- TypeORM
-
----
-
 ## 데이터 객체
 
 - Entity와 DTO는 1:1로 매칭한다.
@@ -304,7 +296,7 @@ export class PostListResponse {
 
 ---
 
-# 레이어 호출
+## 레이어 호출
 
 - Controller 함수는 하나의 Service 함수만 호출한다.
 - Controller는 API 요청 객체를 받아 바로 Service로 전달하며, Service가 반환한 Response 객체를 반환한다.
@@ -521,7 +513,7 @@ export class PostCreateHandler {
 
 ---
 
-# Repository
+## Repository
 
 TypeORM에서는 Spring Data JPA의 `JpaRepository`처럼 Entity별 Repository 인터페이스를 반드시 선언하지 않는다.
 
@@ -593,7 +585,7 @@ entityManager.getRepository(Post);
 
 ---
 
-# Entity 수정
+## Entity 수정
 
 TypeORM은 JPA의 영속성 컨텍스트 기반 더티 체킹과 동일하게 Entity 변경사항을 자동 반영하지 않는다.
 
@@ -643,7 +635,7 @@ export class PostUpdateHandler {
 
 ---
 
-# Custom Repository
+## Custom Repository
 
 - 복잡한 조회는 Custom Repository 클래스로 분리한다.
 - 단순 CRUD는 TypeORM `Repository<Entity>`를 사용한다.
@@ -704,7 +696,7 @@ export class PostQueryRepository {
 
 ---
 
-# 전체 호출 구조
+## 전체 호출 구조
 
 ```text
 Controller
@@ -754,7 +746,7 @@ Response
 
 ---
 
-# 핵심 원칙
+## 핵심 원칙
 
 ```text
 Controller

@@ -1,12 +1,6 @@
-## 백엔드 - Java, Springboot, JPA 개발 규칙
+# 백엔드 - Java, Springboot, JPA 개발 규칙
 
-### 적용대상
-
-- Java
-- Springboot
-- JPA
-
-### 데이터 객체
+## 데이터 객체
 
 - Entity와 DTO는 1:1로 매칭한다.
 - DTO, 요청 객체, 응답 객체는 불변으로 작성한다.
@@ -221,7 +215,7 @@ public final class PostListResponse {
 }
 ```
 
-### 레이어 호출
+## 레이어 호출
 
 - Controller 함수는 하나의 Service 함수만 호출한다.
 - Controller는 API 요청 객체를 받아 바로 Service로 건네주며, Service가 반환한 응답 객체를 반환한다.

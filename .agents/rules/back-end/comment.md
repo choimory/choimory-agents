@@ -1,11 +1,4 @@
-## 백엔드 주석 규칙
-
-### 적용대상
-
-- Javascript, TypeScript
-- Java, Kotlin
-
-### Document Comment
+# 백엔드 주석 규칙
 
 - 모든 객체에는 클래스의 용도를 설명하는 Doc Comment 주석을 작성한다.
 - 모든 객체의 필드에는 필드 측면에 필드명을 설명하는 간략한 주석을 작성한다.

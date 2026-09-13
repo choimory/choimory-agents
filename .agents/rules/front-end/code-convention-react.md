@@ -1,11 +1,6 @@
-## 프론트엔드 - Next.js, React 개발 규칙
+# 프론트엔드 - Next.js, React 개발 규칙
 
-### 적용대상
-
-- Next.js
-- React
-
-### 기본 구조
+## 기본 구조
 
 - 화면은 `page`, `container`, `component` 단위로 분리한다.
 - `page`는 라우팅 진입점 역할만 담당한다.
@@ -43,7 +38,7 @@ src
 
 ---
 
-### 데이터 객체
+## 데이터 객체
 
 - API 요청 타입과 응답 타입은 명확하게 분리한다.
 - API 응답 타입을 화면 컴포넌트에서 직접 변경하지 않는다.
@@ -92,7 +87,7 @@ export const toPostViewModel = (
 
 ---
 
-### API 호출
+## API 호출
 
 - API 호출 함수는 컴포넌트 내부에 직접 작성하지 않는다.
 - API 호출은 도메인별 `api` 파일에 작성한다.
@@ -136,7 +131,7 @@ export const postApi = {
 
 ---
 
-### 컴포넌트
+## 컴포넌트
 
 - 컴포넌트는 가능한 한 props를 통해 데이터를 전달받는다.
 - UI 컴포넌트는 API 호출을 직접 수행하지 않는다.
@@ -194,7 +189,7 @@ export function PostCreateForm({
 
 ---
 
-### Container / Hook
+## Container / Hook
 
 - Container는 화면의 데이터 흐름과 이벤트 흐름을 담당한다.
 - 복잡한 상태와 이벤트 로직은 custom hook으로 분리한다.
@@ -269,7 +264,7 @@ export function PostCreateContainer() {
 
 ---
 
-### Page
+## Page
 
 - `page.tsx`는 가능한 얇게 유지한다.
 - `page.tsx`에서는 화면 Container를 호출한다.

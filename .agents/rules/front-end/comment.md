@@ -1,13 +1,4 @@
-## 프론트엔드 주석 규칙
-
-### 적용대상
-
-- JavaScript
-- TypeScript
-- React
-- Next.js
-
-### Document Comment
+# 프론트엔드 주석 규칙
 
 - 모든 컴포넌트에는 컴포넌트의 용도를 설명하는 Doc Comment 주석을 작성한다.
 - 모든 타입(Type), 인터페이스(Interface)에는 해당 객체의 용도를 설명하는 Doc Comment 주석을 작성한다.
