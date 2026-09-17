@@ -29,7 +29,6 @@
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Post {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; // 게시글 ID
@@ -79,8 +78,7 @@ public class Post {
 
 @Getter
 @Builder(toBuilder = true)
-public final class PostDto {
-
+public class PostDto {
     private final Long id;
     private final String title;
     private final String content;
@@ -118,8 +116,7 @@ public final class PostDto {
 
 @Getter
 @Builder(toBuilder = true)
-public final class PostCreateRequest {
-
+public class PostCreateRequest {
     @NotNull
     private final Long memberId;
 
@@ -165,8 +162,7 @@ public final class PostCreateRequest {
 
 @Getter
 @Builder(toBuilder = true)
-public final class PostCreateResponse {
-
+public class PostCreateResponse {
     private final Long id;
     private final String title;
 
@@ -180,8 +176,7 @@ public final class PostCreateResponse {
 
 @Getter
 @Builder(toBuilder = true)
-public final class PostDetailResponse {
-
+public class PostDetailResponse {
     private final Long id;
     private final String title;
     private final String content;
@@ -199,8 +194,7 @@ public final class PostDetailResponse {
 
 @Getter
 @Builder(toBuilder = true)
-public final class PostListResponse {
-
+public class PostListResponse {
     private final Long id;
     private final String title;
     private final String authorName;
