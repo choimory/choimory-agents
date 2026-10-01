@@ -14,11 +14,15 @@
 
 # 개발 히스토리
 
+> 개발시 반드시 참고한다
+
 @.agents/histories/histories.md
 
 ---
 
 # 공통 개발 규칙
+
+> 개발시 반드시 참고한다
 
 @.agents/rules/*.md
 
