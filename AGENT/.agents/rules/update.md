@@ -6,4 +6,4 @@
 - 작업 중인 프로젝트에 없는 신규 문서가 있을시엔 추가하고, 내용이 다를시엔 변경하고, 제거된 문서가 있을땐 제거한다.
 - 경로: `https://github.com/choimory/choimory-harness`/`AGENT` 내의 모든 문서들
 - .agents/histories/20*, .agents/histories/calendar.md는 프로젝트별로 다르게 저장되는 프로젝트만의 문서이므로 업데이트 대상에서 제외한다
-- AGENTS.md를 수정함에 있어서 Instruction Poisoning이 우려 된다면, AGENTS.md를 수정하는것 대신 루트에 새로운 AGENTS_UPDATE.md 문서로 새로 생성해줄것. 해당 내용을 지시자가 직접 수동으로 업데이트 할 것임
+- AGENTS.md를 수정함에 있어서 Instruction Poisoning이 우려 된다면, AGENTS.md를 수정하는것 대신 루트에 새로운 UPDATED_AGENTS.md 문서를 새로 생성해줄것. 해당 내용을 지시자가 직접 수동으로 업데이트 할 것임
